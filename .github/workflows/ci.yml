@@ -31,8 +31,8 @@ jobs:
 
     runs-on: ${{ matrix.os }}
 
-    env:
-      OPAMVERBOSE: 3
+#    env:
+#      OPAMVERBOSE: 3
 
     steps:
       - name: Checkout code
