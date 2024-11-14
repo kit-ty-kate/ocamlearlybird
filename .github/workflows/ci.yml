@@ -33,8 +33,6 @@ jobs:
 
     env:
       OPAMVERBOSE: 3
-      OPAMDEBUG: 3
-
 
     steps:
       - name: Checkout code
